@@ -110,8 +110,6 @@
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
-    <Compile Include="Service\DemoEventServiceClient.cs" />
-    <Compile Include="Service\DemoServiceClient.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\MainPage.xaml.cs">
@@ -161,6 +159,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ServiceDemo.Client\ServiceDemo.Client.csproj">
+      <Project>{6ac4f6b2-3550-4aab-8160-36a8aca937df}</Project>
+      <Name>ServiceDemo.Client</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ServiceDemo.ServiceContract\ServiceDemo.ServiceContract.csproj">
       <Project>{17992d4e-b22b-42ad-9de2-3e79da8072e1}</Project>
       <Name>ServiceDemo.ServiceContract</Name>
@@ -170,6 +172,7 @@
       <Name>SignalRHelper</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>

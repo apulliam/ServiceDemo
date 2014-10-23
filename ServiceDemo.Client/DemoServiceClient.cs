@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Net.Http.Formatting;
 using ServiceDemo.ServiceContract;
 
-namespace ServiceDemo.ModernApp.Service
+namespace ServiceDemo.Client
 {
     public class DemoServiceClient : IDemoService
     {

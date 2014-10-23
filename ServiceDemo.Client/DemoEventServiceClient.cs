@@ -8,7 +8,7 @@ using ServiceDemo.ServiceContract.Model;
 using Microsoft.AspNet.SignalR.Client;
 using SignalRHelper;
 
-namespace ServiceDemo.ModernApp.Service
+namespace ServiceDemo.Client
 {
     public class DemoEventServiceClient : EventServiceClient<IDemoEventService>, IDemoEventService
     {

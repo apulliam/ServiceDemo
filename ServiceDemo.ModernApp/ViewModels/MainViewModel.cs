@@ -7,7 +7,7 @@ using ServiceDemo.ModernApp.Common;
 using ServiceDemo.ModernApp.Views;
 using ServiceDemo.ServiceContract;
 using ServiceDemo.ServiceContract.Model;
-using ServiceDemo.ModernApp.Service;
+using ServiceDemo.Client;
 
 namespace ServiceDemo.ModernApp.ViewModels
 {
